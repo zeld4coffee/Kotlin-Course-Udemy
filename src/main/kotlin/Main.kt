@@ -1,8 +1,13 @@
 fun main(args: Array<String>) {
 
-    // impressão dos dados
-    println("Print 1")
-    print("Print 2")
+    /* var é usado quando o valor pode ser mudado
+       val quando não pode ser mudado */
 
+    var numDouble = 2.5
+    var name = "Ailton"
+    var charactere = 'b'
+
+    // impressão dos dados
+    print("numDoub")
 
 }

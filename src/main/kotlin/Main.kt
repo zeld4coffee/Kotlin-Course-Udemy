@@ -10,9 +10,12 @@ fun main(args: Array<String>) {
     println(total)
 
     // pequena recursão que verifica se é par ou não
-    when(numDouble){
-        2450 -> println("Número par")
-        2433 -> println("Número é impar")
+    when (numDouble) {
+        2450 -> println("Numero par")
+        2433 -> println("Numero é impar")
+        else -> {
+            println("undefinied")
+        }
     }
 
     // caracteres
@@ -21,4 +24,16 @@ fun main(args: Array<String>) {
 
     println(name)
     println(charactere)
+
+    // arrays
+    val numbers = arrayOf(1, 2, 3, 4, 5)
+    println(numbers[1])
+
+    exibirMensagem()
 }
+
+fun exibirMensagem() {
+    val alerta = "apenas um alerta"
+    println(alerta)
+}
+

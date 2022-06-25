@@ -29,6 +29,7 @@ fun main(args: Array<String>) {
     val numbers = arrayOf(1, 2, 3, 4, 5)
     println(numbers[1])
 
+    // outra função que de alerta
     exibirMensagem()
 }
 

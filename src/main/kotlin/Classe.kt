@@ -1,7 +1,14 @@
 class Casa {
+
+    // propriedades
     var cor: String = ""
     var tamanho: String = ""
     var quartos: String = ""
+
+    // métodos
+    fun abrirJanela(){
+        println("> Abrir janelas")
+    }
 }
 
 fun main(args: Array<String>) {
@@ -17,5 +24,8 @@ fun main(args: Array<String>) {
     casa2.tamanho = "Media"
     casa2.quartos = "2"
     println("Casa 2: " + casa2.cor + ", " + casa2.tamanho + ", " + casa2.quartos + " quartos.")
+
+    // print de outra função
+    casa.abrirJanela()
 }
 
